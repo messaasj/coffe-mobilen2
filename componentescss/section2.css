@@ -1,0 +1,104 @@
+.section2{
+    max-width: clamp(100%, 100vw, 100%);
+    height: 100%;
+    background-color: #f8e3b6;
+}
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  .botoes-de-categoria{
+    display: flex;
+    width: 75vw;
+    border: 2px solid #834d1e;
+    margin: auto;
+    padding: 3% 7%;
+    border-radius: 5px;
+    justify-content: space-around;
+
+  }
+   a .botaocat{
+    border: none;
+    color: #834d1e;
+  
+    border-radius: 5px;
+    background-color: #f8e3b6;
+  }
+  .botaocat:hover{
+    background-color:#834d1e;
+    color: #f8e3b6;
+    font-weight: 600;
+  }
+.cardapio{
+    background-color: #f8e3b6;
+    height: 85%;
+    border-radius: 30px 30px 0px 0px;
+    border: 2px solid #834d1e;
+    margin-top: 5%;
+    padding: 5%;
+}
+.flex-cardapio{
+    display: flex;
+    margin-bottom: 3%;
+   
+}
+.flex-card{
+  
+    padding-left: 5%;
+}
+.flex-card h2{
+    font-size: 1em;
+    color: #834d1e;
+}
+.flex-card h3{
+    font-size: 0.8em;
+    max-width: 80%;
+    font-weight: 300;
+    color: #834d1e;
+}
+.flex-card h4{
+    font-size: 1.1em;
+    color: #834d1e;
+}
+
+
+
+.item-info {
+    flex: 1;
+    
+  }
+  
+  .item-name {
+    margin: 0;
+  }
+  
+  
+  .item-quantity {
+    justify-content: end;
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn-decrease,
+  .btn-increase {
+    border-radius: 5px;
+    background-color: #834d1e;
+    border: 1px solid #834d1e;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  .btn-decrease:active,
+  .btn-increase:active {
+    background-color: #704219; /* Cor ao clicar */
+    color: #f8e3b6; /* Cor do texto ao clicar */
+    border: none;
+  }
+  
+  
+  .quantity {
+    margin: 0 3%;
+    font-size: 1em;
+    font-family: "Sora", sans-serif;
+  }

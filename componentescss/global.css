@@ -1,0 +1,28 @@
+  /*parte do resetcs*/
+/*-------------------------*/
+body, h1, h2, h3, p,  h4, h6, figure, input, nav{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    
+}
+h1, h2, h3, p,  h4, h6, a, input, h5, nav, h6, span{
+    font-family: "Sora", sans-serif;
+}
+body{
+    background-color: black;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #f8e3b6;
+    height: 100vh; /* Ocupa a altura total da viewport */
+    overflow-x: hidden; /* Impede o scroll lateral */
+   }
+   @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+   @import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
