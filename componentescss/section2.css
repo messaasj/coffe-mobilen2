@@ -87,6 +87,7 @@
     border: 1px solid #834d1e;
     padding: 5px 10px;
     cursor: pointer;
+    color: black;
     font-size: 1.2em;
   }
   .btn-decrease:active,
