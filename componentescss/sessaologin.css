@@ -21,7 +21,7 @@ background-color: #f8e3b6;
 .formlogin{
     max-width: clamp(100%, 100vw, 100%);
     background-color: #f8e3b6;
-    height: 75vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -81,6 +81,7 @@ a{
 }
 .brigadero{
     display: flex;
+    max-width: clamp(100%, 100vw, 100%);
     justify-content: center;
     position: absolute;
     bottom: 0;
