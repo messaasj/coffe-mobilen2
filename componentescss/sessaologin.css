@@ -21,7 +21,7 @@ background-color: #f8e3b6;
 .formlogin{
     max-width: clamp(100%, 100vw, 100%);
     background-color: #f8e3b6;
-    height: 85vh;
+    height: 75vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -35,7 +35,7 @@ form{
     border: 2px solid #834d1e;
     background-color: #fcf2d9;
     border-radius: 30px;
-    height: 60vh;
+    height: 70vh;
     width: 80%;
     margin: auto;
     display: flex;
