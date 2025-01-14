@@ -142,3 +142,57 @@ padding-bottom: 2%;
     bottom: 0;
     width: 100vw;
 }
+
+
+
+
+
+
+
+
+
+
+
+/* Menu lateral hamburger */
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: -300px; /* Esconde o menu fora da tela */
+    width: 300px;
+    height: 100vh;
+    background-color:  #834d1e;
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.3s ease; /* Transição suave */
+    z-index: 999;
+  }
+  
+  /* Links do menu */
+  .menu-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin: 15% 0 0;
+  }
+  
+  .menu-lateral ul li {
+    padding: 5% 10%;
+  }
+  
+  .menu-lateral ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1em;
+    display: block;
+    transition: background-color 0.3s;
+  }
+  
+  .menu-lateral ul li a:hover {
+    background: linear-gradient(90deg,  #6d4019, #834d1e);
+    border-radius: 5px;
+
+  }
+  
+  /* Menu ativo (visível) */
+  .menu-lateral.active {
+    left: 0; /* Move o menu para dentro da tela */
+  }
