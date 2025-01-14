@@ -21,7 +21,7 @@ background-color: #f8e3b6;
 .formlogin{
     max-width: clamp(100%, 100vw, 100%);
     background-color: #f8e3b6;
-    height: 75vh;
+    height: 55vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -38,6 +38,7 @@ form{
     height: 70vh;
     width: 80%;
     margin: auto;
+   
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centraliza horizontalmente */
@@ -80,10 +81,10 @@ a{
     font-size: 1.1em;
 }
 .brigadero{
+    margin-top: 10vh;
     display: flex;
     max-width: clamp(100%, 100vw, 100%);
     justify-content: center;
-    position: absolute;
-    bottom: 0;
+
 
 }
